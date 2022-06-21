@@ -1,0 +1,33 @@
+Iniciando projeto NODEJS
+
+- npm init;
+
+Configuração Typescript
+
+- tsc --init;
+- npm install --save-dev typescript
+- npm install --save-dev @types/node
+
+Transpilação 
+
+- npm run build
+
+_________________________________________________________
+
+Dependencias
+
+npm i -D express
+npm i -D  @types/express
+
+_________________________________________________________
+
+Automatizar servidor
+
+- npm i -D ts-node-dev
+"dev": "ts-node-dev /*-r tsconfig-paths/register*/ --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts"
+
+_________________________________________________________
+
+Status codes
+
+npm install -D http-status-codes
